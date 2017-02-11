@@ -1,7 +1,29 @@
-<html>
-<head>
-<title>Errol's Page</title>
-<body>
-<h1>Hello World!</h1>
-</body>
+
+<!DOCTYPE html>
+<html>  
+  <head> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+    function blinker() {
+    $('.blink_me').fadeOut(500);
+    $('.blink_me').fadeIn(500);
+    }
+    setInterval(blinker, 1000);
+    </script>
+    
+  </head>
+  <body bgcolor="#f5f5f5">
+    <p>Paragraph</p>
+    <i>italic</i>
+<b>bold</b>
+    <font color="blue">Blue</font>
+    <font color="red">Red</font><br>
+    <a href="https://www.bankofamerica.com/">Click here beause I have money</a><br>
+    <a href="https://www.google.com"> click here if you are feeling lucky</a>
+    
+    <span class="blink_me">
+      <a href="https://www.youtube.com/channel/UC4e0qRXub_Gb9nN0Z_lIWYQ">Subscribe to errolsv!</a>
+    </span>
+
+  </body>
 </html>
